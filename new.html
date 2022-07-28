@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/images/cat.png" type="image/x-icon">
+    <title>hello world</title>
+</head>
+
+<body>
+
+
+    <center>
+        <div class="text" style="text-align: center;">
+            This is my website about myself
+        </div>
+
+    </center>
+
+
+
+    <div id="myself">
+
+
+        <div class="github">
+            <abbr title="My GitHub">
+                <a href="https://github.com/Illbedev">
+                    <img class="link_github" width="50" src="/images/dev.png" alt="dev icon"></a>
+            </abbr>
+        </div>
+
+
+
+
+
+        <div class="fb_icon">
+            <abbr title="My Facebook">
+                <a href="https://www.facebook.com/profile.php?id=100077044003859">
+                    <img class="fb" width="50" src="/images/fb's logo.png" alt="My Facebook">
+                </a>
+            </abbr>
+        </div>
+
+
+
+        <div class="avt">
+            <abbr title="This is me">
+                <img class="me" width="100" src="/images/linh avt.jpg" alt="this is me">
+            </abbr>
+        </div>
+
+
+
+
+        <div class="gm_icon">
+            <button class="gm_button" style="background-color: Transparent;background-repeat: no-repeat;border: none;"
+                type="button" onclick="copyEvent('copy')">
+                <abbr title="Click to copy my Email">
+                    <img width="50" src="/images/gmail logo.png" alt="My Gmail">
+                </abbr>
+            </button>
+            <p style="opacity: 0;" id="copy">iamscreaming1174007@gmail</p>
+            <script>
+                function copyEvent(id) {
+                    var str = document.getElementById(id);
+                    window.getSelection().selectAllChildren(str);
+                    document.execCommand("Copy")
+                }
+            </script>
+        </div>
+
+        <div>
+            <abbr title="My love">
+                <a href="https://www.w3schools.com/">
+                    <img class="love" width="50" src="/images/love.png" alt="This is my Love">
+                </a>
+            </abbr>
+        </div>
+
+        <div class="insta_icon">
+            <abbr title="insta">
+                <img width="50" src="/images/instagram.png" alt="Instagram">
+            </abbr>
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

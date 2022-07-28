@@ -1,0 +1,96 @@
+@font-face {
+    font-family: FiolexGirl;
+    src: url(/fonts/FiolexGirls.woff2);
+}
+
+
+html {
+    background-color: lightblue;
+
+}
+
+.text {
+    background-color: antiquewhite;
+    padding: 10px;
+    width: 300px;
+    border-radius: 15px;
+    margin-top: 50px;
+    font-family: FiolexGirl;
+    font-size: 20px;
+
+}
+
+
+
+#myself {
+    /* background-color: lightpink; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 15%;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+
+
+
+
+}
+
+.link_github {
+    margin-left: 41.67%;
+    margin-right: 41.67%;
+
+}
+
+.fb_icon {
+    width: 50px;
+    height: 50px;
+    margin-top: 71.27px;
+    float: left;
+
+}
+
+
+
+.me {
+    border-radius: 50%;
+    margin-top: 46.27px;
+    margin-left: 50px;
+    float: left;
+}
+
+
+.gm_icon {
+    width: 50px;
+    height: 50px;
+    margin-top: 71.27px;
+    float: right;
+}
+
+.love {
+    margin-top: 196.27px;
+
+
+}
+
+.insta_icon {
+    margin-top: -54.36px;
+    margin-left: 50px;
+
+}
+
+
+
+.button_insta {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+
+.gm_button {
+    cursor: pointer;
+}
